@@ -1,0 +1,14 @@
+@media screen and (min-width:993px) {
+    .dropdown:hover .dropdown-menu
+    {
+        display:block !important;
+    }
+    .dropdown:focus .dropdown-menu
+    {
+        display:block !important;
+    }
+    .dropdown .dropdown-menu.show
+    {
+        display: none !important;
+    }
+}
